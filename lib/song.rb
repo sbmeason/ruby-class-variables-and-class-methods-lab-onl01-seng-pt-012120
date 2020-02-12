@@ -1,8 +1,9 @@
-class Song
+class Song 
+  @@count = 0
   
-  @@song 
-  @@artists
-  @@genres 
+  def self.count 
+    @@count
+  end 
   
 def initialize
   @@song
